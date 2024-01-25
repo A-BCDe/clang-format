@@ -1,3 +1,4 @@
+# Generated from CLion C/C++ Code Style settings
 BasedOnStyle: LLVM
 AccessModifierOffset: -4
 AlignAfterOpenBracket: AlwaysBreak
@@ -14,7 +15,7 @@ AlignTrailingComments:
   Kind: Never
 AllowAllArgumentsOnNextLine: true
 AllowAllParametersOfDeclarationOnNextLine: false
-AllowBreakBeforeNoexceptSpecifier: Never
+# AllowBreakBeforeNoexceptSpecifier: Never
 AllowShortBlocksOnASingleLine: Always
 AllowShortCaseLabelsOnASingleLine: true
 # AllowShortCompoundRequirementOnASingleLine: true
@@ -58,7 +59,7 @@ BreakBeforeTernaryOperators: true
 BreakConstructorInitializers: BeforeColon
 BreakInheritanceList: BeforeColon
 BreakStringLiterals: true
-ColumnLimit: 0
+ColumnLimit: 100
 CompactNamespaces: false
 ConstructorInitializerIndentWidth: 1
 ContinuationIndentWidth: 2
@@ -108,10 +109,11 @@ PenaltyIndentedWhitespace: 0
 PenaltyReturnTypeOnItsOwnLine: 0
 PointerAlignment: Right
 PPIndentWidth: 1
-QualifierAlignment: Right
+QualifierAlignment: Leave # Right
 # QualifierOrder: ['static', 'friend', 'constexpr', 'inline', 'restrict', 'type', 'const', 'volatile']
 ReferenceAlignment: Pointer
 RemoveParentheses: Leave
+RemoveSemicolon: false
 RequiresClausePosition: OwnLine
 RequiresExpressionIndentation: OuterScope
 ReflowComments: true
@@ -145,4 +147,3 @@ Standard: c++20
 TabWidth: 4
 UseTab: Never
 VerilogBreakBetweenInstancePorts: true
-
